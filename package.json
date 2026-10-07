@@ -1,0 +1,33 @@
+{
+  "name": "cladasafari-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clada Safari Bliss: public website and admin dashboard (Next.js 15, App Router).",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "start:server": "node server.js",
+    "lint": "eslint"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "next": "15.5.25",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.25",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5"
+  }
+}
