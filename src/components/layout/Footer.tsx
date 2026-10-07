@@ -140,7 +140,16 @@ export function Footer({
             WhatsApp and contact buttons, which would otherwise cover it. */}
         <div className="container-page flex flex-col justify-between gap-2.5 pb-24 pt-6 text-[0.82rem] sm:flex-row">
           <p>
-            © {year} {brand.name}. All rights reserved.
+            © {year} {brand.name}. All rights reserved. Designed by{' '}
+            <a
+              href="https://circlelook.com"
+              target="_blank"
+              rel="noopener"
+              className="text-white transition-colors hover:text-gold-400"
+            >
+              Circlelook
+            </a>
+            .
           </p>
           {notice?.enabled && notice.text ? <p className="text-gold-400/80">{notice.text}</p> : <p>{brand.tagline}</p>}
         </div>
